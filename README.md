@@ -1,2 +1,2 @@
 # python-econometrics
-Basic econometrics stuff with Python
+Basic econometrics modeling with Python
