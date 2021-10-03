@@ -2,6 +2,8 @@
 Multivariate OLS linear regression on electric supply data.
 Based on an exercise in Econometrics by Fumio Hayashi.<br />
 Data souce: http://fhayashi.fc2web.com/datasets.htm
+**Programming language:** Python <br />
+**Libraries used:** Numpy, Pandas, Matplotlib
 
 ### data_creator.py
 Creates data for multiple linear regression from the 'nerlove.xls' dataset.
