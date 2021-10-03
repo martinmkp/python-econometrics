@@ -16,3 +16,4 @@ Executes the OLS model from 'ols_model.py'.
 ### plotting.py
 Does scatterplots of the explained variable (total costs) wrt. the explaining variables.
 Run separetely from other scripts. Saves the plots to 'figures' folder.
+Uses Matplotlib.
