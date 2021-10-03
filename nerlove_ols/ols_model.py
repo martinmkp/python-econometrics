@@ -16,3 +16,14 @@ def ols(X, y):
     b = np.dot(X_X_X, y)
 
     return b
+
+def r_squared(X, y, b):
+    """
+    Calculates the coefficient of determination of the model.
+    The coefficient of determination is defined as
+    """
+    x_b = np.dot(X, b) # Xb
+    e = y - x_b # Residual
+    r_uc = 1 -  np.dot(e.T, e) / np.dot(y.T, y)
+
+    return r_uc
