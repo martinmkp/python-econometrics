@@ -20,7 +20,8 @@ def ols(X, y):
 def r_squared(X, y, b):
     """
     Calculates the coefficient of determination of the model.
-    The coefficient of determination is defined as
+    The coefficient of determination is defined as:
+    1 - e'e/y'y
     """
     x_b = np.dot(X, b) # Xb
     e = y - x_b # Residual
