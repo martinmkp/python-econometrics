@@ -1,6 +1,7 @@
 # Nerlove OLS
-Multivariate OLS linear regression on electric supply data with numpy and pandas.
+Multivariate OLS linear regression on electric supply data.
 Based on an exercise in Econometrics by Fumio Hayashi.
+Data souce: http://fhayashi.fc2web.com/datasets.htm
 
 ### data_creator.py
 Creates data for multiple linear regression from the 'nerlove.xls' dataset.
