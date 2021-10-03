@@ -2,7 +2,7 @@
 Basic econometric modeling with Python
 
 ### nerlove_ols
-Multivariate OLS linear regression on electric supply data with numpy and pandas.
+Multivariate OLS linear regression on electric supply data with Numpy and Pandas.
 Based on an exercise in Econometrics by Fumio Hayashi.
 
 ### simple_linear_reg.ipynb
