@@ -2,7 +2,7 @@ import numpy as np
 
 def ols(X, y):
     """
-    Calculates the OLS estimator of the given data.The calculations are
+    Calculates the OLS estimator of the given data. The calculations are
     done step by step.
     The OLS estimator 'b' is defined as:
     b = (X'X)^-1 * X'y
