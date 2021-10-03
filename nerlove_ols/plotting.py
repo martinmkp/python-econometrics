@@ -18,7 +18,7 @@ def scatterplots():
         corr = np.corrcoef(X[:,i+1] ,y)[0, 1]
         plt.figure()
         plt.scatter(X[:,i+1] ,y)
-        plt.title("Scatterplot, Pearson corr: " + str(round(corr, 2)), fontsize = 18)
+        plt.title("Scatterplot of log variables, Pearson corr: " + str(round(corr, 2)), fontsize = 18)
         plt.xlabel(title[i], fontsize = 15)
         plt.ylabel("Total costs", fontsize = 15)
         plt.savefig("../nerlove_ols/figures/scatter_TC_" + title[i] +".png")
