@@ -1,7 +1,7 @@
 # Nerlove OLS
-Multivariate OLS linear regression on electric supply data.
+**Description:** Multivariate OLS linear regression on electric supply data.
 Based on an exercise in Econometrics by Fumio Hayashi.<br />
-Data souce: http://fhayashi.fc2web.com/datasets.htm <br />
+**Data souce:** http://fhayashi.fc2web.com/datasets.htm <br />
 **Programming language:** Python <br />
 **Libraries used:** Numpy, Pandas, Matplotlib
 
